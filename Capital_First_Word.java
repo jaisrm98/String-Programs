@@ -22,5 +22,6 @@ public class Capital_First_Word {
 		}
 	 
 	
-
+Input: jai singh
+Output: Jai Singh
 
