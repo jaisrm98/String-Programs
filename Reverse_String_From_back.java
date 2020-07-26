@@ -18,3 +18,6 @@ public class Reverse_String_From_back {
 	}
 
 }
+
+Input: jai singh
+Output: singh jai
