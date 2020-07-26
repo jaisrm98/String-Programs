@@ -21,3 +21,7 @@ public class Remove_given_word {
 	}
 
 }
+
+Input: Jai ss Singh
+           ss
+Output: Jai Singh
