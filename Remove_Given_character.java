@@ -25,3 +25,7 @@ public class Remove_Given_character {
 	System.out.print(list.get(i));
 }
 }
+
+Input: jai singh
+        a
+Output: ji singh
