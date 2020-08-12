@@ -14,3 +14,6 @@ public class Sort_String {
 	}
 
 }
+
+Input: dcab
+Output: abcd
