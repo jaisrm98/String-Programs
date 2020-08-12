@@ -24,3 +24,5 @@ import java.util.*;
 
 }
 }
+Input: dog is animal
+Output: is dog animal
