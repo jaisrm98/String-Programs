@@ -19,3 +19,6 @@ public class Sort_word_InString {
 	}
 
 }
+
+Input: Dog is animal
+Output: is dog animal
