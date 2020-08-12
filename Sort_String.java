@@ -14,6 +14,3 @@ public class Sort_String {
 	}
 
 }
-
-Input: bdc
-Output: bcd
