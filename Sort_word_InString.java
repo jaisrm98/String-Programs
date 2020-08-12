@@ -21,4 +21,4 @@ public class Sort_word_InString {
 }
 
 Input: Dog is animal
-Output: is dog animal
+Output:animal dog is     // sortting alphabetically
