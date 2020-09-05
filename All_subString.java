@@ -22,3 +22,5 @@ public class All_subString {
 	}
 
 }
+
+Output: 3
