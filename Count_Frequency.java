@@ -39,3 +39,9 @@ public class Count_Frequency {
 	}
 }
 
+Output:Key =    a, frequency = 1
+		Key = b, frequency = 3
+		Key = c, frequency = 2
+		Key = d, frequency = 2
+		b is having max value 3
+
