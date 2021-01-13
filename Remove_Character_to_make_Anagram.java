@@ -6,28 +6,20 @@ class Remove_Character_to_make_Anagram {
 
 public static void main(String args[] ) throws Exception {
 
-Scanner sc=new Scanner(System.in);
-int t=sc.nextInt();
-sc.nextLine();
-String a;
-String b;
-while(t-->0) {
-a=sc.nextLine().toLowerCase();
-b=sc.nextLine().toLowerCase();
-for(int i=0;i<a.length();i++)
-{
-	char s=a.charAt(i);
-	String str=Character.toString(s);
-	if(b.contains(str))
-	{
-		a=a.replaceFirst(str, "");
-		b=b.replaceFirst(str, "");
-		i--;
-	}
-}
-	
-	int sum=a.length()+b.length();
-	System.out.println(sum);
+		String a="bc";
+		String b="gcd";
+		int na=a.length();
+		int nb=b.length();
+		for(int i=0;i<b.length();i++)
+		{
+			String str=Character.toString(b.charAt(i));
+			if(a.contains(str))
+			{
+				na--;
+				nb--;
+			}
+		}
+		System.out.println("Total words removed to make strings anagram are "+(na+nb));
 	
 	
 	
@@ -35,6 +27,6 @@ for(int i=0;i<a.length();i++)
 }
 }
 
-Input: abc
-       a
-Output: 2
+Input: bc
+       gcd
+Output: 3
