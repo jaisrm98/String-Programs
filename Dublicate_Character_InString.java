@@ -17,8 +17,10 @@ public class Dublicate_Character_InString {
 				}
 			}
 			if(arr[i]!='0' && c>1)
-				System.out.println(arr[i]);
+				System.out.print(arr[i]=" ");
 		}
 	}
 
 }
+
+Output: j a
