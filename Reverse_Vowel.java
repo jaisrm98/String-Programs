@@ -37,3 +37,5 @@ public class Reverse_Vowel {
 	}
 
 }
+
+Output: Hollo werld
