@@ -1,0 +1,27 @@
+package coding;
+
+public class Valid_Palindrome {
+	static public boolean isPalindrome(String s) {
+		String k = "";
+		s = s.replaceAll("[^a-zA-Z0-9]", "");   // String only consist of character and numbers so this regular expression will remove all other symbols from string.
+		for (int i = s.length() - 1; i >= 0; i--) {
+
+			k = k + s.charAt(i);
+		}
+
+		if (s.equalsIgnoreCase(k))
+			return true;
+		else
+			return false;
+	}
+
+	
+	public static void main(String[] args) {
+		String s = "A man, a plan, a canal: Panama";
+
+		System.out.println(isPalindrome(s));
+	}
+}
+
+
+Output: true
