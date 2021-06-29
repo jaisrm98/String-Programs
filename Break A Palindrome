@@ -1,21 +1,29 @@
-package coding;
+package Practice;
 
 public class Break_A_Palindrome {
-
-	public static void main(String[] args) {
-		String str="aba";
-		char arr[]=str.toCharArray();
-		for(int i=0;i<arr.length/2;i++)
+	static String palindrome(String s)
+	{
+		char arr[]=s.toCharArray();
+		int n=arr.length;
+		for(int i=0;i<n/2;i++)
 		{
 			if(arr[i]!='a')
 			{
 				arr[i]='a';
-				System.out.println(String.valueOf(arr));                   // convert  variable of other data type to String
-				break;
+				return String.valueOf(arr);                                //convert other datatype into String
 			}
 		}
-		arr[arr.length-1]='b';
-		System.out.println(String.valueOf(arr));
+		arr[n-1]='b';
+		if(arr[n-1]>1)
+			return String.valueOf(arr);
+		else
+			return "";
+	}
+
+	public static void main(String[] args) {
+		String s="aba";
+		System.out.println(palindrome(s));
+			
 	}
 
 }
